@@ -1,0 +1,80 @@
+{
+    "questions": [
+    {
+      "title": "1: Hvilke av disse alternativene tilhører mocking?",
+      "answers": [
+        { "answere": "Fakes" },
+        {
+          "answere": "Spies"
+        },
+        {
+          "answere": "Mocks"
+        },
+        {
+          "answere": "Alle alternativene",
+          "correct": true
+        }
+      ],
+      "helper": {
+        "text": "Vi har en som logger alle kall til funksjonen, en som gjør det samme, men uten avhenigheter og en som trenger en eksisterende implemansjon for å bli kjørt"
+      }
+    },
+    {
+        "title": "2: Hvilke av disse alternativene er riktig når man skal sjekke om en verdi eksisterer i en komponent?",
+        "answers": [
+          { "answere": "toExpectValue" },
+          {
+            "answere": "toBeChecked"
+          },
+          {
+            "answere": "toValue"
+          },
+          {
+            "answere": "toHaveValue",
+            "correct": true
+          }
+        ],
+        "helper": {
+          "text": "Direkte oversettelse blir: å ha verdi"
+        }
+      },
+      {
+        "title": "3: Hva heter verktøyet som vi kan bruke for å sjekke om hvor mye av koden har blitt testet?",
+        "answers": [
+          { "answere": "Jest coverage" },
+          {
+            "answere": "Code checker"
+          },
+          {
+            "answere": "Bug fixer"
+          },
+          {
+            "answere": "Code coverage",
+            "correct": true
+          }
+        ],
+        "helper": {
+          "text": "Vertøyet hjelper oss med å holde orden på målestokken på hvor mange av linjene kodene har blitt dekket av tester."
+        }
+      },
+      {
+        "title": "4: Hvordan får man benyttet testene sine best mulig?",
+        "answers": [
+          { "answere": "Å få testet mest som mulig kode" },
+          {
+            "answere": "Det er ikke viktig å teste koden sin så lenge den fungerer"
+          },
+          {
+            "answere": "Å ha kort som mulig beskrivelse i testene sine"
+          },
+          {
+            "answere": "Å ha utfyllende beskrivsele av hva man tester som forteller hva koden gjør",
+            "correct": true
+          }
+        ],
+        "helper": {
+          "text": "Forklaringer på testene som forteller hva koden gjør vil hjelpe deg selv og andre om hva koden innebærer og hvorfor den kan kræsje."
+        }
+      }
+  ]
+}
